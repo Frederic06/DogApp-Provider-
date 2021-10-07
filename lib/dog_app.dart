@@ -1,8 +1,6 @@
-
 import 'package:flutter/material.dart';
 import 'package:flutter_dopapp_provider/ui/bottom_bar.dart';
 import 'package:provider/provider.dart';
-
 import 'providers/breeds.dart';
 
 class DogApp extends StatelessWidget {
@@ -15,7 +13,7 @@ class DogApp extends StatelessWidget {
         ),
       ],
       child: MaterialApp(
-        title: 'Flutter Demo',
+        title: 'DogAPP',
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
